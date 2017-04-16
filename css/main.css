@@ -1,0 +1,377 @@
+/*--Mobile Device--*/
+
+@media screen and (max-width: 35rem) {
+    * {
+        box-sizing: border-box;
+    }
+    .bg-header {
+        padding: 1rem 0;
+        background-image: url("../img/zen-still-life.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+    .bg-header img {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    /*.wrapper {
+    width:90%;
+    margin:0 auto;
+}*/
+    .nav-bar {
+        list-style: none;
+        margin: 0;
+        text-align: center;
+        font-family: 'Arimo', sans-serif;
+        display: block;
+    }
+    .error {
+        color: red;
+    }
+    .nav-bar li {
+        display: block;
+        background-color: #A9FFF3;
+        margin: 0 1rem 1rem 0;
+        padding: 5px 25px 5px 25px;
+        font-family: 'Arimo', sans-serif;
+    }
+    .nav-bar li a {
+        color: #0A1253;
+        text-decoration: none;
+        font-family: 'Arimo', sans-serif;
+        text-align: center;
+    }
+    .box {
+        width: 100%;
+        font-family: 'Arimo', sans-serif;
+        text-align: left;
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 1.4;
+    }
+    
+    .article box {
+        width:100%
+        padding-right:10px; 
+        padding-left:10px; 
+    }
+    .article-2 {
+        width: 100%;
+        font-family: 'Arimo', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        line-height: 1.4;
+    }
+    .box img {
+        align-content: center;
+        max-width: 100%
+    }
+    #form {
+        display: table;
+        vertical-align: middle;
+        text-align:center;
+        line-height: 1.4;
+        padding-left: 10px;
+        font-family: 'Arimo', sans-serif;
+    }
+    .column-left {
+        width: 100%; 
+        //display: block;
+        vertical-align: middle;
+        float: left;
+    }
+    .column-right {
+        width: 100%;
+        //display: block;
+        vertical-align: middle;
+    }
+    body {
+        font-size: 0.618rem;
+        font-family: 'Arimo', sans-serif;
+        text-align: center;
+        line-height: 1.4;
+        padding:0; 
+        margin:0;   
+        background-color: #FFCD83;
+        
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.4;
+        font-family: font-family: 'Droid Serif';
+        text-align: center;
+        font-size: 1 rem;
+    }
+    background-size: cover;
+    .bg-main {
+        padding: 1rem 0;
+        background-color: #FFCD83;
+    }
+    .bg-footer {
+        margin-bottom: 0;
+        padding: 1rem 0;
+        background-color: #A9FFF3;
+
+    }
+    footer{
+    }
+    .fa {
+        padding-right: 20px;
+    }
+    .social-media-network {
+        text-align: center;
+    }
+}
+
+
+/*---------- 
+TABLET STYLE 
+-----------*/
+
+@media screen and (min-width:35rem) and (max-width: 80rem) {
+    html {
+        text-align:center;
+        padding: 0px;
+        min-width: 100%;
+    }
+    .bg-header {
+        padding: 1rem 0;
+        background-image: url("../img/zen-still-life.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        width: 100%;
+        height: 200px;
+    }
+    body {
+        font-family: 'Arimo', sans-serif;
+        line-height: 1.5;
+        font-size: 1rem;
+        padding:0; 
+        margin:0; 
+        text-align:center;    
+        background-color: #FFCD83;
+        
+   
+    }
+    .nav-bar li {
+        display: inline-block;
+        background-color: #A9FFF3;
+        margin: 0 1rem 1rem 0;
+        padding: 5px 120px 5px 120px;
+    }
+    .box img {
+        align-content: center;
+        max-width: 100%
+    }
+    figure {
+        float: left;
+    }
+    .box {
+        /*width: 100%;*/
+        font-family: 'Arimo', sans-serif;
+        font-size: 1 rem;
+        line-height: 1.5;
+        text-align: left;
+        padding-right:30px; 
+        padding-left:30px;
+
+    }
+    .article {
+        margin:0; 
+        font-family: 'Arimo', sans-serif;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: left; 
+    }
+    .error {
+        color: red;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.5;
+        font-family: font-family: 'Droid Serif';
+        text-align: center;
+        font-size: 1.5 rem;
+    }
+    
+    .bg-footer {
+          background-color: #A9FFF3;
+    }
+    .fa {
+        padding-right: 30px;
+    }
+    .social-media-network {
+        text-align: center;
+    }
+    /* style form */
+    .column-right {
+        width: 66%;
+        float: left;
+    }
+    .column-left {
+        width: 33%;
+        float: left
+    }
+    #form {
+        display: table;
+        font-family: 'Arimo', sans-serif;
+    }
+    #comment{
+        width:100%;
+        height:100%; 
+        box-sizing: border-box;         /* For IE and modern versions of Chrome */
+        -moz-box-sizing: border-box;    /* For Firefox                          */
+        -webkit-box-sizing: border-box; /* For Safari    */
+    }
+}
+
+
+/*----------- 
+DESKTOP STYLE 
+------------*/
+
+@media screen and (min-width: 80rem) {
+    html {
+        text-align:center;
+        padding: 0px;
+        min-width: 100%;
+    }
+    header {
+        min-width: 100%;
+    }
+    .bg-header {
+        background-image: url("../img/zen-still-life.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px;
+    }
+    .nav-bar {
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+        text-align: left;
+        padding-left: 200px;
+    }
+    .logo {
+        float: left;
+        padding-left: 90px;
+        margin-right: 20px;
+    }
+    .box img {
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    .bg-header .box h1 {
+        text-align: left;
+        padding-left:95px; 
+       
+    }
+    .nav-bar li {
+        display: inline-block;
+        background-color: #A9FFF3;
+        margin: 0 1rem 1rem 0;
+        padding: 5px 60px 5px 60px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 1.6;
+        font-family: font-family: 'Droid Serif';
+        text-align: left;
+        font-size: 1.8rem;
+        padding-left:90px; 
+    }
+    figure {
+        float: left;
+    }
+    .box {
+        
+        font-family: 'Arimo', sans-serif;
+    }
+    
+    .article {
+        
+        padding: 0px 15px 0px 15px;
+        /*margin:0 auto; */
+        font-family: 'Arimo', sans-serif;
+        /*padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1.618;*/
+   
+    }
+    body {
+        font-size: 1.618rem;
+        padding:0; 
+        margin:0; 
+        text-align:left;    
+        background-color: #FFCD83;
+        
+    }
+    .error {
+        color: red;
+    }
+    
+    .bg-footer {
+          background-color: #A9FFF3;
+    }
+    
+    .fa {
+        padding-right: 50px;
+    }
+    .social-media-network {
+        text-align: center;
+    }
+    .column-right {
+        width: 66%;
+        float: left;
+    }
+    #comment{
+        width:100%;
+        height:100%; 
+        box-sizing: border-box;         /* For IE and modern versions of Chrome */
+        -moz-box-sizing: border-box;    /* For Firefox                          */
+        -webkit-box-sizing: border-box; /* For Safari    */
+    }
+
+    .column-left {
+        width: 33%;
+        float: left
+    }
+    #form {
+        display: table;
+        font-family: 'Arimo', sans-serif;
+        text-align: center;
+        margin: 10px;
+        align-content: center;
+    }
+}
+
+
+
+
+
